@@ -24,8 +24,9 @@ Niyomufasha Emerance
 
 ## Contact information
 
-Name: Niyomufasha Emerance
-Email: niyemera6@gmail.com
-PhoneNumber: +250785297054
+- Name: Niyomufasha Emerance
+- Email: niyemera6@gmail.com
+- PhoneNumber: +250785297054
+
 
 copyright &copy; 2019, NiEmerance.All rights reserved
