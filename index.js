@@ -1,9 +1,9 @@
 function getInput(){
-        var CC=document.getElementById("century").value;
         var bd=document.getElementById("birthDate").value;
         var gd=document.getElementById("gender").value;
         var bdArray=bd.split("-");
         var YY=parseInt(bdArray[0]); 
+            CC=YY/100 +1;
             MM=parseInt(bdArray[1]);
             DD=parseInt(bdArray[2]);
 
