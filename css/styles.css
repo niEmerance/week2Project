@@ -1,4 +1,4 @@
-.mainBody{
+body{
     background-color: khaki;
 }
 .main{
@@ -35,7 +35,28 @@
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
-    padding-right: 30px; 
+    padding-right: 30px;
     color:white;
     background-color: green;
+}
+/* ====================================== */
+.jumbotron{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+form .form-group label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+form .form-group input{
+    width: 400px;
+}
+form .form-group .custom-select select option{
+    width: 400px;
+}
+form{
+    margin-left: 300px;
 }

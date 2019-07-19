@@ -10,7 +10,9 @@
 </head>
 <body>
    <div class="container">
-    <h1>Tell me your birthday and I tell your the day</br>on which you were born</h1>
+    <div class="jumbotron">
+            <h1>Tell me your birthday and I tell you the day</br>on which you were born</h1>
+    </div>
     <form>
         <div class="form-group">
                 <label for="">Century</label>
@@ -23,7 +25,7 @@
         <div class="form-group">
             <label for="inlineFormCustomSelectPref">Gender</label>
             <select class="custom-select" id="gender" onchange="selectGender()">
-                 <option selected>Choose...</option>
+                 <option class="selected">Choose...</option>
                  <!-- <option value="1">Female</option>
                  <option value="2">Male</option> -->
                  <option>Female</option>
@@ -31,7 +33,7 @@
             </select>
         </div>
         <div class="form-group">
-            <button type="submit" class="btn btn-secondary" onclick="getInput()">Submit</button>
+            <button type="submit" class="btn btn-success" onclick="getInput()">Submit</button>
           </div>
     </form>
    </div>
