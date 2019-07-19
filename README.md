@@ -17,10 +17,10 @@ Niyomufasha Emerance
 
 ## Technologies used
 
-|   Names              |
-|----------------------|
-|Javascript            |
-|Bootstrap             |
+|   Names              | Description             |
+|----------------------|-------------------------|
+|Javascript            | To calculate the day     |
+|Bootstrap             | To Design well
 
 ## Contact information
 
