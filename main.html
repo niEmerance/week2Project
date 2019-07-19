@@ -13,25 +13,29 @@
     <h1>Tell me your birthday and I tell your the day</br>on which you were born</h1>
     <form>
         <div class="form-group">
-                <label for="">Last Name</label>
-                <input type="text" class="form-control" placeholder="Last Name...">
+                <label for="">Century</label>
+                <input type="text" class="form-control" id="century" placeholder="century...">
         </div>
         <div class="form-group">
             <label for="">Birth Date</label>
-            <input type="date" class="form-control">
+            <input type="date" class="form-control" id="birthDate">
          </div>
         <div class="form-group">
             <label for="inlineFormCustomSelectPref">Gender</label>
-            <select class="custom-select" id="inlineFormCustomSelectPref">
-            <option selected>Choose...</option>
-            <option value="1">Female</option>
-            <option value="2">Male</option>
+            <select class="custom-select" id="gender" onchange="selectGender()">
+                 <option selected>Choose...</option>
+                 <!-- <option value="1">Female</option>
+                 <option value="2">Male</option> -->
+                 <option>Female</option>
+                 <option>Male</option>
             </select>
         </div>
         <div class="form-group">
-            <button type="submit" class="btn btn-secondary">Submit</button>
+            <button type="submit" class="btn btn-secondary" onclick="getInput()">Submit</button>
           </div>
     </form>
    </div>
+
+   <script src="index.js"></script>
 </body>
 </html>
