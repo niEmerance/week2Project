@@ -66,5 +66,8 @@ function getInput(){
       {
          alert(d+" means you were born on Saturday,so your name is Ama");
       }
-      else("invalid input");
+      else
+      {
+          alert("invalid input");
+      }
 }
